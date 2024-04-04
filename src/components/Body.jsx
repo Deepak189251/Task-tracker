@@ -187,7 +187,7 @@ const Body = () => {
                         </select>
                     </div>
                 </div>
-                <div className="content mt-[35px] flex justify-evenly">
+                <div className="content mt-[35px] flex justify-between">
                    {/*taskList?.map((e, i) => <Task key={i} value={e} num={i} />)*/}
                    <PendingTask  list={pendingTasks} title={"Pending"}/>
                    <InProgressTask list={inProgressTask} title={"In Progress"} />
